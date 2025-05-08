@@ -1,0 +1,161 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: >
+  Deploy a call-analytics pipeline using AWS Glue.
+  Part 1: Transcription & insight extraction.
+  Part 2: Report generation.
+
+Parameters:
+  OpenAIApiKeySecretArn:
+    Type: String
+    Description: ARN of the Secrets Manager secret storing the OpenAI API key ("APIKey" field)
+
+Resources:
+
+  # ─── Data & Scripts buckets ────────────────────────────────────────────────
+  CallAnalyticsBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: call-analytics-pipeline-data-bucket
+
+  CallAnalyticsScriptsBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: call-analytics-pipeline-scripts-bucket
+
+  # ─── IAM Role for Glue ──────────────────────────────────────────────────────
+  GlueServiceRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub '${AWS::StackName}-GlueServiceRole'
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: glue.amazonaws.com
+            Action: sts:AssumeRole
+      Path: /
+
+  GlueServiceRolePolicy:
+    Type: AWS::IAM::Policy
+    Properties:
+      PolicyName: !Sub '${AWS::StackName}-GluePolicy'
+      Roles:
+        - !Ref GlueServiceRole
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Action:
+              - logs:CreateLogGroup
+              - logs:CreateLogStream
+              - logs:PutLogEvents
+            Resource: 'arn:aws:logs:*:*:*'
+          - Effect: Allow
+            Action:
+              - s3:ListBucket
+              - s3:GetObject
+              - s3:PutObject
+            Resource:
+              - !GetAtt CallAnalyticsBucket.Arn
+              - !Sub '${CallAnalyticsBucket.Arn}/*'
+              - !GetAtt CallAnalyticsScriptsBucket.Arn
+              - !Sub '${CallAnalyticsScriptsBucket.Arn}/*'
+          - Effect: Allow
+            Action:
+              - secretsmanager:GetSecretValue
+            Resource: !Ref OpenAIApiKeySecretArn
+
+  # ─── Glue Workflow ──────────────────────────────────────────────────────────
+  CallAnalyticsWorkflow:
+    Type: AWS::Glue::Workflow
+    Properties:
+      Name: !Sub '${AWS::StackName}-CallAnalyticsWorkflow'
+      Description: 'Orchestrates transcription and reporting jobs'
+
+  # ─── Transcription & Insight Extraction Job ─────────────────────────────────
+  TranscriptionJob:
+    Type: AWS::Glue::Job
+    Properties:
+      Name: !Sub '${AWS::StackName}-TranscriptionJob'
+      Role: !GetAtt GlueServiceRole.Arn
+      Command:
+        Name: pythonshell
+        ScriptLocation: !Sub 's3://${CallAnalyticsScriptsBucket}/transcription.py'
+        PythonVersion: '3'
+      DefaultArguments:
+        '--TempDir': !Sub 's3://${CallAnalyticsBucket}/temp/'
+        '--JOB_NAME': !Ref AWS::StackName
+        '--AUDIO_DIR': !Sub 's3://${CallAnalyticsBucket}/input-audio/'
+        '--OUTPUT_DIR': !Sub 's3://${CallAnalyticsBucket}/transcripts/'
+        '--WHISPER_MODEL': 'medium'
+        '--MAX_WORKERS': '4'
+        '--OPENAI_API_KEY': !Sub '{{resolve:secretsmanager:${OpenAIApiKeySecretArn}:SecretString:APIKey}}'
+      GlueVersion: '3.0'
+      MaxCapacity: 1.0
+      MaxRetries: 1
+      ExecutionProperty:
+        MaxConcurrentRuns: 1
+
+  ReportGenerationJob:
+    Type: AWS::Glue::Job
+    Properties:
+      Name: !Sub '${AWS::StackName}-ReportGenerationJob'
+      Role: !GetAtt GlueServiceRole.Arn
+      Command:
+        Name: pythonshell
+        ScriptLocation: !Sub 's3://${CallAnalyticsScriptsBucket}/report_generation.py'
+        PythonVersion: '3'
+      DefaultArguments:
+        '--TempDir': !Sub 's3://${CallAnalyticsBucket}/temp/'
+        '--JOB_NAME': !Ref AWS::StackName
+        '--DATASET_PATH': !Sub 's3://${CallAnalyticsBucket}/transcripts/dataset_67.json'
+        '--REPORT_OUTPUT_DIR': !Sub 's3://${CallAnalyticsBucket}/reports/'
+      GlueVersion: '3.0'
+      MaxCapacity: 1.0
+      MaxRetries: 1
+      ExecutionProperty:
+        MaxConcurrentRuns: 1
+
+
+  # ─── Triggers ────────────────────────────────────────────────────────────────
+  # Run transcription every 15 minutes
+  TranscriptionTrigger:
+    Type: AWS::Glue::Trigger
+    Properties:
+      Name: !Sub '${AWS::StackName}-TranscriptionSchedule'
+      WorkflowName: !Ref CallAnalyticsWorkflow
+      Type: SCHEDULED
+      Schedule: 'cron(0/15 * * * ? *)'
+      Actions:
+        - JobName: !Ref TranscriptionJob
+      StartOnCreation: true
+
+  # After transcription succeeds, kick off report generation
+  ReportTrigger:
+    Type: AWS::Glue::Trigger
+    Properties:
+      Name: !Sub '${AWS::StackName}-ReportOnSuccess'
+      Type: CONDITIONAL
+      StartOnCreation: true
+      # (you can omit WorkflowName here if you already pointed the trigger at the workflow
+      #  in the Glue::Trigger resource that defines the workflow association)
+      Predicate:
+        Logical: AND                      # :contentReference[oaicite:0]{index=0}
+        Conditions:
+          - JobName: !Ref TranscriptionJob
+            State: SUCCEEDED
+            LogicalOperator: EQUALS       # ← this is required by the Glue API :contentReference[oaicite:1]{index=1}
+      Actions:
+        - JobName: !Ref ReportGenerationJob
+
+Outputs:
+  DataBucket:
+    Description: S3 bucket holding audio, transcripts & reports
+    Value: !Ref CallAnalyticsBucket
+  ScriptsBucket:
+    Description: S3 bucket for your Python scripts
+    Value: !Ref CallAnalyticsScriptsBucket
+  GlueWorkflow:
+    Description: Name of the AWS Glue Workflow
+    Value: !Ref CallAnalyticsWorkflow
