@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The call transcript provided is too brief and lacks substantive content. It consists only of greetings.\",\n  \"topics\": [],\n  \"action_items\": [],\n  \"sentiment\": \"Neutral\"\n}\n```"
+}

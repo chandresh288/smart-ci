@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The call primarily discusses technical issues related to a device, including problems with night vision and pricing. The conversation also touches on the need for technical support and provides a support number for further assistance.\",\n  \"topics\": [\n    \"Technical issues\",\n    \"Night vision problems\",\n    \"Device pricing\",\n    \"Technical support\"\n  ],\n  \"action_items\": [\n    {\n      \"task\": \"Contact technical support\",\n      \"responsible\": \"Caller\",\n      \"deadline\": \"Not specified\"\n    }\n  ],\n  \"sentiment\": \"Neutral\"\n}\n```"
+}

@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The call primarily involved troubleshooting a technical issue related to a software or application interface. The participants discussed various options and settings to resolve the problem, including checking presets and video settings. The call ended with a suggestion to call back if the issue persists.\",\n  \"topics\": [\n    \"Technical troubleshooting\",\n    \"Software/application settings\",\n    \"Presets and video settings\",\n    \"User interface navigation\"\n  ],\n  \"action_items\": [\n    {\n      \"action\": \"Check presets and video settings\",\n      \"responsible\": \"Participant\",\n      \"deadline\": \"Not specified\"\n    },\n    {\n      \"action\": \"Call back if the issue persists\",\n      \"responsible\": \"Participant\",\n      \"deadline\": \"Not specified\"\n    }\n  ],\n  \"sentiment\": \"Neutral\"\n}\n```"
+}

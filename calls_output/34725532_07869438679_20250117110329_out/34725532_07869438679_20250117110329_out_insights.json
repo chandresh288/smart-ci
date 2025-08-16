@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The call involves a discussion about a technical issue related to a mobile application. The speaker is trying to confirm some details and suggests checking the camera settings to resolve the issue.\",\n  \"topics\": [\n    \"Technical issue\",\n    \"Mobile application\",\n    \"Camera settings\",\n    \"Confirmation of details\"\n  ],\n  \"action_items\": [\n    {\n      \"who\": \"Speaker\",\n      \"what\": \"Check the camera settings\",\n      \"when\": \"Not specified\"\n    }\n  ],\n  \"sentiment\": \"Neutral\"\n}\n```"
+}

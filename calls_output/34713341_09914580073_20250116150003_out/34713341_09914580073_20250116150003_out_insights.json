@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The call involves a customer service interaction where the customer is facing issues with a software application. The representative guides the customer on how to resolve the issue by reinstalling the application and checking their login credentials.\",\n  \"topics\": [\n    \"Software application issue\",\n    \"Reinstallation guidance\",\n    \"Login credentials\"\n  ],\n  \"action_items\": [\n    {\n      \"who\": \"Customer\",\n      \"what\": \"Reinstall the application and check login credentials\",\n      \"when\": \"As soon as possible\"\n    },\n    {\n      \"who\": \"Customer\",\n      \"what\": \"Send login ID and password via WhatsApp\",\n      \"when\": \"As soon as possible\"\n    }\n  ],\n  \"sentiment\": \"Neutral\"\n}\n```"
+}

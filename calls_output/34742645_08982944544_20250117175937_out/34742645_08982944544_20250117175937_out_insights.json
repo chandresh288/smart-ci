@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The call involves a customer seeking technical support for connectivity issues with their device. The support agent suggests troubleshooting steps, including connecting the device to a different network to identify the problem. The conversation revolves around resolving the issue with the current network setup.\",\n  \"topics\": [\n    \"Technical support\",\n    \"Connectivity issues\",\n    \"Troubleshooting steps\",\n    \"Network setup\"\n  ],\n  \"action_items\": [\n    {\n      \"who\": \"Customer\",\n      \"what\": \"Connect the device to a different network and check for connectivity.\",\n      \"when\": \"As soon as possible\"\n    }\n  ],\n  \"sentiment\": \"Neutral\"\n}\n```"
+}

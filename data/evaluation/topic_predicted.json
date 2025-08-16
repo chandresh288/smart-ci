@@ -1,0 +1,485 @@
+{
+  "call_001": [
+    "installation",
+    "fraud alert",
+    "billing"
+  ],
+  "call_002": [
+    "connectivity",
+    "technical issue",
+    "plan upgrade"
+  ],
+  "call_003": [
+    "router",
+    "account"
+  ],
+  "call_004": [
+    "router"
+  ],
+  "call_005": [
+    "installation"
+  ],
+  "call_006": [
+    "connectivity",
+    "plan upgrade",
+    "billing"
+  ],
+  "call_007": [
+    "password reset",
+    "plan upgrade",
+    "router"
+  ],
+  "call_008": [
+    "plan upgrade"
+  ],
+  "call_009": [
+    "connectivity"
+  ],
+  "call_010": [
+    "installation",
+    "router",
+    "late fee"
+  ],
+  "call_011": [
+    "password reset",
+    "connectivity",
+    "technical issue"
+  ],
+  "call_012": [
+    "router",
+    "plan upgrade"
+  ],
+  "call_013": [
+    "billing",
+    "fraud alert"
+  ],
+  "call_014": [
+    "fraud alert"
+  ],
+  "call_015": [
+    "installation"
+  ],
+  "call_016": [
+    "technical issue",
+    "late fee"
+  ],
+  "call_017": [
+    "router",
+    "billing",
+    "account"
+  ],
+  "call_018": [
+    "fraud alert"
+  ],
+  "call_019": [
+    "installation"
+  ],
+  "call_020": [
+    "billing",
+    "account",
+    "plan upgrade"
+  ],
+  "call_021": [
+    "account"
+  ],
+  "call_022": [
+    "password reset"
+  ],
+  "call_023": [
+    "account",
+    "installation",
+    "connectivity"
+  ],
+  "call_024": [
+    "password reset",
+    "plan upgrade"
+  ],
+  "call_025": [
+    "billing",
+    "technical issue",
+    "late fee"
+  ],
+  "call_026": [
+    "account",
+    "installation",
+    "router"
+  ],
+  "call_027": [
+    "account",
+    "technical issue",
+    "installation"
+  ],
+  "call_028": [
+    "fraud alert",
+    "billing"
+  ],
+  "call_029": [
+    "router",
+    "installation"
+  ],
+  "call_030": [
+    "password reset"
+  ],
+  "call_031": [
+    "installation",
+    "router",
+    "password reset"
+  ],
+  "call_032": [
+    "billing",
+    "fraud alert",
+    "installation"
+  ],
+  "call_033": [
+    "fraud alert",
+    "router",
+    "connectivity"
+  ],
+  "call_034": [
+    "late fee",
+    "account"
+  ],
+  "call_035": [
+    "technical issue"
+  ],
+  "call_036": [
+    "fraud alert",
+    "connectivity",
+    "plan upgrade"
+  ],
+  "call_037": [
+    "router",
+    "account"
+  ],
+  "call_038": [
+    "plan upgrade",
+    "password reset"
+  ],
+  "call_039": [
+    "technical issue",
+    "installation"
+  ],
+  "call_040": [
+    "connectivity",
+    "technical issue",
+    "account"
+  ],
+  "call_041": [
+    "late fee"
+  ],
+  "call_042": [
+    "plan upgrade",
+    "technical issue"
+  ],
+  "call_043": [
+    "installation",
+    "account",
+    "password reset"
+  ],
+  "call_044": [
+    "late fee",
+    "fraud alert",
+    "connectivity"
+  ],
+  "call_045": [
+    "plan upgrade"
+  ],
+  "call_046": [
+    "connectivity",
+    "account"
+  ],
+  "call_047": [
+    "late fee"
+  ],
+  "call_048": [
+    "connectivity",
+    "fraud alert"
+  ],
+  "call_049": [
+    "late fee"
+  ],
+  "call_050": [
+    "account",
+    "installation"
+  ],
+  "call_051": [
+    "password reset",
+    "installation",
+    "plan upgrade"
+  ],
+  "call_052": [
+    "plan upgrade"
+  ],
+  "call_053": [
+    "late fee"
+  ],
+  "call_054": [
+    "installation",
+    "plan upgrade"
+    
+  ],
+  "call_055": [
+    "plan upgrade",
+    "technical issue"
+  ],
+  "call_056": [
+    "technical issue"
+  ],
+  "call_057": [
+    "password reset",
+    "billing"
+  ],
+  "call_058": [
+    "connectivity",
+    "router"
+  ],
+  "call_059": [
+    "fraud alert",
+    "password reset"
+  ],
+  "call_060": [
+    "plan upgrade"
+  ],
+  "call_061": [
+    "plan upgrade",
+    "billing"
+  ],
+  "call_062": [
+    "account",
+    "connectivity"
+  ],
+  "call_063": [
+    "password reset",
+    "technical issue"
+  ],
+  "call_064": [
+    "account"
+  ],
+  "call_065": [
+    "late fee",
+    "plan upgrade"
+  ],
+  "call_066": [
+    "account",
+    "technical issue"
+  ],
+  "call_067": [
+    "password reset",
+    "fraud alert"
+  ],
+  "call_068": [
+    "late fee",
+    "billing",
+    "router"
+  ],
+  "call_069": [
+    "technical issue",
+    "billing"
+  ],
+  "call_070": [
+    "technical issue",
+    "connectivity"
+  ],
+  "call_071": [
+    "installation",
+    "connectivity"
+  ],
+  "call_072": [
+    "password reset",
+    "connectivity",
+    "late fee"
+  ],
+  "call_073": [
+    "late fee"
+  ],
+  "call_074": [
+    "plan upgrade"
+  ],
+  "call_075": [
+    "billing"
+  ],
+  "call_076": [
+    "plan upgrade"
+  ],
+  "call_077": [
+    "plan upgrade",
+    "fraud alert",
+    "billing"
+  ],
+  "call_078": [
+    "router"
+  ],
+  "call_079": [
+    "connectivity",
+    "plan upgrade"
+  ],
+  "call_080": [
+    "router",
+    "password reset",
+    "account"
+  ],
+  "call_081": [
+    "billing",
+    "router"
+  ],
+  "call_082": [
+    "plan upgrade",
+    "fraud alert",
+    "account"
+  ],
+  "call_083": [
+    "billing",
+    "plan upgrade",
+    "connectivity"
+  ],
+  "call_084": [
+    "installation",
+    "billing"
+  ],
+  "call_085": [
+    "installation",
+    "password reset"
+  ],
+  "call_086": [
+    "password reset",
+    "installation",
+    "billing"
+  ],
+  "call_087": [
+    "late fee"
+  ],
+  "call_088": [
+    "technical issue",
+    "billing",
+    "password reset"
+  ],
+  "call_089": [
+    "technical issue",
+    "connectivity",
+    "late fee"
+  ],
+  "call_090": [
+    "fraud alert",
+    "plan upgrade",
+    "technical issue"
+  ],
+  "call_091": [
+    "late fee",
+    "connectivity",
+    "router"
+  ],
+  "call_092": [
+    "billing"
+  ],
+  "call_093": [
+    "account",
+    "fraud alert",
+    "password reset"
+  ],
+  "call_094": [
+    "connectivity"
+  ],
+  "call_095": [
+    "billing",
+    "technical issue",
+    "fraud alert"
+  ],
+  "call_096": [
+    "technical issue",
+    "fraud alert"
+  ],
+  "call_097": [
+    "late fee"
+  ],
+  "call_098": [
+    "late fee",
+    "plan upgrade"
+  ],
+  "call_099": [
+    "technical issue",
+    "connectivity",
+    "password reset"
+  ],
+  "call_100": [
+    "password reset",
+    "connectivity"
+  ],
+  "call_101": [
+    "installation",
+    "technical issue",
+    "plan upgrade"
+  ],
+  "call_102": [
+    "fraud alert",
+    "plan upgrade",
+    "installation"
+  ],
+  "call_103": [
+    "router",
+    "account",
+    "technical issue"
+  ],
+  "call_104": [
+    "password reset"
+  ],
+  "call_105": [
+    "technical issue",
+    "late fee",
+    "fraud alert"
+  ],
+  "call_106": [
+    "technical issue"
+  ],
+  "call_107": [
+    "router",
+    "installation",
+    "password reset"
+  ],
+  "call_108": [
+    "plan upgrade",
+    "technical issue",
+    "account"
+  ],
+  "call_109": [
+    "account",
+    "password reset"
+  ],
+  "call_110": [
+    "connectivity",
+    "router",
+    "account"
+  ],
+  "call_111": [
+    "billing",
+    "plan upgrade"
+  ],
+  "call_112": [
+    "account",
+    "technical issue",
+    "fraud alert"
+  ],
+  "call_113": [
+    "installation"
+  ],
+  "call_114": [
+    "billing",
+    "fraud alert",
+    "plan upgrade"
+  ],
+  "call_115": [
+    "connectivity"
+  ],
+  "call_116": [
+    "installation"
+  ],
+  "call_117": [
+    "billing"
+  ],
+  "call_118": [
+    "password reset"
+  ],
+  "call_119": [
+    "password reset",
+    "late fee"
+  ]
+}

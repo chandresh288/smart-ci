@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The call involves a customer speaking with technical support about an issue with their device not connecting online. The support representative suggests changing the IP address to resolve the issue, and confirms the customer's contact number.\",\n  \"topics\": [\n    \"Technical support\",\n    \"Device connectivity issue\",\n    \"IP address change\",\n    \"Contact information confirmation\"\n  ],\n  \"action_items\": [\n    {\n      \"who\": \"Customer\",\n      \"what\": \"Change the IP address\",\n      \"when\": \"Not specified\"\n    }\n  ],\n  \"sentiment\": \"Neutral\"\n}\n```"
+}

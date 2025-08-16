@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The call involves a discussion about an issue related to a camera, possibly involving a solution from Avnontech. The participants discuss checking and possibly replacing a part purchased from a specific vendor.\",\n  \"topics\": [\n    \"Camera issue\",\n    \"Avnontech solutions\",\n    \"Part replacement\",\n    \"Vendor purchase\"\n  ],\n  \"action_items\": [\n    {\n      \"person\": \"Unspecified\",\n      \"task\": \"Check the camera issue and provide feedback\",\n      \"deadline\": \"Unspecified\"\n    },\n    {\n      \"person\": \"Unspecified\",\n      \"task\": \"Consider replacing the part with another one\",\n      \"deadline\": \"Unspecified\"\n    }\n  ],\n  \"sentiment\": \"Neutral\"\n}\n```"
+}

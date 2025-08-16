@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The call involved a discussion about handling camera updates and timezone issues. There were technical difficulties with the cameras, and the participants were trying to resolve these issues. The conversation also touched on some IT-related concerns and troubleshooting steps.\",\n  \"topics\": [\n    \"Camera updates\",\n    \"Timezone issues\",\n    \"Technical difficulties\",\n    \"IT troubleshooting\"\n  ],\n  \"action_items\": [],\n  \"sentiment\": \"Frustrated\"\n}\n```"
+}

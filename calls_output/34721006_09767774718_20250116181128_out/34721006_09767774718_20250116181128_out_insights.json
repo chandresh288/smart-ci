@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The call was with a technical support representative addressing an issue with a tool that was sent but not functioning as expected. The customer is experiencing problems with their camera not showing up, and there seems to be an internet-related issue as well.\",\n  \"topics\": [\n    \"Technical support\",\n    \"Tool malfunction\",\n    \"Camera issues\",\n    \"Internet connectivity\"\n  ],\n  \"action_items\": [],\n  \"sentiment\": \"Frustrated\"\n}\n```"
+}

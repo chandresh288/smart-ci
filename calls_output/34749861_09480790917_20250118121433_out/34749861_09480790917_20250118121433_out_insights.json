@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The call involves a discussion about a security camera, specifically focusing on identifying the model number. The speaker is trying to locate the model number on the camera, which is mentioned to be on a sticker at the back or bottom of the device.\",\n  \"topics\": [\n    \"Security camera\",\n    \"Model number identification\",\n    \"Device labeling\"\n  ],\n  \"action_items\": [\n    {\n      \"person\": \"Speaker\",\n      \"task\": \"Check the back or bottom of the camera for the model number\",\n      \"deadline\": null\n    }\n  ],\n  \"sentiment\": \"Neutral\"\n}\n```"
+}

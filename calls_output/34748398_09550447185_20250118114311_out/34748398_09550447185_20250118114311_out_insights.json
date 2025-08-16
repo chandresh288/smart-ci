@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The call discusses issues with a 5MP camera in a device, focusing on its power and technical specifications. Suggestions are made to improve the device by changing the camera module and ensuring the design meets the required standards.\",\n  \"topics\": [\n    \"5MP camera issues\",\n    \"Device power and technical specifications\",\n    \"Camera module replacement\",\n    \"Device design improvements\"\n  ],\n  \"action_items\": [\n    {\n      \"who\": \"Unspecified\",\n      \"what\": \"Order a better camera module and change the camera settings\",\n      \"when\": \"Unspecified\"\n    }\n  ],\n  \"sentiment\": \"Neutral\"\n}\n```"
+}

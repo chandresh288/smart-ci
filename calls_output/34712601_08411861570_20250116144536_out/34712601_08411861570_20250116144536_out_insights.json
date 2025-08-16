@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The call involves a discussion about a laptop issue and a request to make a call to a specific number. The conversation includes instructions on how to proceed with the call and mentions the use of a normal call instead of a WhatsApp call.\",\n  \"topics\": [\n    \"Laptop issue\",\n    \"Call instructions\",\n    \"Contact number\"\n  ],\n  \"action_items\": [\n    {\n      \"who\": \"Caller\",\n      \"what\": \"Make a normal call to the specified number\",\n      \"when\": \"Not specified\"\n    }\n  ],\n  \"sentiment\": \"Neutral\"\n}\n```"
+}

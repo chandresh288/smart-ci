@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The call involves a technical support discussion regarding a Doollrite camera. The customer is seeking assistance to enable night vision and configure the IP camera settings.\",\n  \"topics\": [\n    \"Technical support\",\n    \"Doollrite camera\",\n    \"Night vision settings\",\n    \"IP camera configuration\"\n  ],\n  \"action_items\": [\n    {\n      \"person\": \"Technical support\",\n      \"task\": \"Assist the customer with enabling night vision and configuring the IP camera\",\n      \"deadline\": \"Not specified\"\n    }\n  ],\n  \"sentiment\": \"Neutral\"\n}\n```"
+}

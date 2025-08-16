@@ -1,0 +1,420 @@
+{
+  "call_001": [
+    "reset password",
+    "verify identity"
+  ],
+  "call_002": [
+    "update records"
+  ],
+  "call_003": [
+    "call back"
+  ],
+  "call_004": [
+    "schedule technician",
+    "send email"
+  ],
+  "call_005": [
+    "call back"
+  ],
+  "call_006": [
+    "reset password"
+  ],
+  "call_007": [
+    "update records",
+    "schedule technician"
+  ],
+  "call_008": [
+    "update records"
+  ],
+  "call_009": [
+    "schedule technician",
+    "issue refund"
+  ],
+  "call_010": [
+    "send email",
+    "schedule technician"
+  ],
+  "call_011": [
+    "send email"
+  ],
+  "call_012": [
+    "reset password",
+    "call back"
+  ],
+  "call_013": [
+    "escalate issue",
+    "reset password"
+  ],
+  "call_014": [
+    "reset password"
+  ],
+  "call_015": [
+    "send email",
+    "update records"
+  ],
+  "call_016": [
+    "issue refund"
+  ],
+  "call_017": [
+    "send email"
+  ],
+  "call_018": [
+    "send email",
+    "schedule technician"
+  ],
+  "call_019": [
+    "call back"
+  ],
+  "call_020": [
+    "send email",
+    "escalate issue"
+  ],
+  "call_021": [
+    "issue refund"
+  ],
+  "call_022": [
+    "send email"
+  ],
+  "call_023": [
+    "reset password"
+  ],
+  "call_024": [
+    "verify identity",
+    "escalate issue"
+  ],
+  "call_025": [
+    "schedule technician"
+  ],
+  "call_026": [
+    "reset password"
+  ],
+  "call_027": [
+    "issue refund"
+  ],
+  "call_028": [
+    "update records",
+    "call back"
+  ],
+  "call_029": [
+    "update records",
+    "schedule technician"
+  ],
+  "call_030": [
+    "send email"
+  ],
+  "call_031": [
+    "verify identity"
+  ],
+  "call_032": [
+    "schedule technician"
+  ],
+  "call_033": [
+    "call back"
+  ],
+  "call_034": [
+    "call back"
+  ],
+  "call_035": [
+    "call back"
+  ],
+  "call_036": [
+    "issue refund",
+    "verify identity"
+  ],
+  "call_037": [
+    "schedule technician",
+    "verify identity"
+  ],
+  "call_038": [
+    "reset password",
+    "update records"
+  ],
+  "call_039": [
+    "send email"
+  ],
+  "call_040": [
+    "send email"
+  ],
+  "call_041": [
+    "schedule technician"
+  ],
+  "call_042": [
+    "escalate issue",
+    "call back"
+  ],
+  "call_043": [
+    "escalate issue",
+    "call back"
+  ],
+  "call_044": [
+    "call back",
+    "verify identity"
+  ],
+  "call_045": [
+    "escalate issue",
+    "schedule technician"
+  ],
+  "call_046": [
+    "send email",
+    "call back"
+  ],
+  "call_047": [
+    "update records",
+    "send email"
+  ],
+  "call_048": [
+    "issue refund"
+  ],
+  "call_049": [
+    "issue refund",
+    "call back"
+  ],
+  "call_050": [
+    "escalate issue"
+  ],
+  "call_051": [
+    "verify identity",
+    "update records"
+  ],
+  "call_052": [
+    "send email"
+  ],
+  "call_053": [
+    "reset password",
+    "send email"
+  ],
+  "call_054": [
+    "update records"
+  ],
+  "call_055": [
+    "verify identity"
+  ],
+  "call_056": [
+    "send email"
+  ],
+  "call_057": [
+    "call back"
+  ],
+  "call_058": [
+    "escalate issue",
+    "schedule technician"
+  ],
+  "call_059": [
+    "escalate issue",
+    "verify identity"
+  ],
+  "call_060": [
+    "schedule technician",
+    "call back"
+  ],
+  "call_061": [
+    "update records"
+  ],
+  "call_062": [
+    "call back"
+  ],
+  "call_063": [
+    "send email"
+  ],
+  "call_064": [
+    "reset password"
+  ],
+  "call_065": [
+    "reset password",
+    "issue refund"
+  ],
+  "call_066": [
+    "reset password",
+    "call back"
+  ],
+  "call_067": [
+    "send email"
+  ],
+  "call_068": [
+    "call back"
+  ],
+  "call_069": [
+    "reset password"
+  ],
+  "call_070": [
+    "verify identity",
+    "schedule technician"
+  ],
+  "call_071": [
+    "issue refund"
+  ],
+  "call_072": [
+    "send email",
+    "reset password"
+  ],
+  "call_073": [
+    "send email",
+    "reset password"
+  ],
+  "call_074": [
+    "call back"
+  ],
+  "call_075": [
+    "send email",
+    "issue refund"
+  ],
+  "call_076": [
+    "call back",
+    "schedule technician"
+  ],
+  "call_077": [
+    "send email",
+    "issue refund"
+  ],
+  "call_078": [
+    "send email",
+    "issue refund"
+  ],
+  "call_079": [
+    "update records"
+  ],
+  "call_080": [
+    "escalate issue",
+    "reset password"
+  ],
+  "call_081": [
+    "issue refund",
+    "update records"
+  ],
+  "call_082": [
+    "send email",
+    "reset password"
+  ],
+  "call_083": [
+    "issue refund",
+    "verify identity"
+  ],
+  "call_084": [
+    "reset password",
+    "update records"
+  ],
+  "call_085": [
+    "send email"
+  ],
+  "call_086": [
+    "escalate issue"
+  ],
+  "call_087": [
+    "send email",
+    "schedule technician"
+  ],
+  "call_088": [
+    "escalate issue",
+    "call back"
+  ],
+  "call_089": [
+    "update records"
+  ],
+  "call_090": [
+    "schedule technician",
+    "update records"
+  ],
+  "call_091": [
+    "schedule technician"
+  ],
+  "call_092": [
+    "call back",
+    "update records"
+  ],
+  "call_093": [
+    "send email"
+  ],
+  "call_094": [
+    
+    "send email"
+  ],
+  "call_095": [
+    "call back",
+    "escalate issue"
+  ],
+  "call_096": [
+  
+    "update records"
+  ],
+  "call_097": [
+    "escalate issue",
+    "send email"
+  ],
+  "call_098": [
+    "schedule technician"
+  ],
+  "call_099": [
+    "update records"
+  ],
+  "call_100": [
+    "schedule technician"
+  ],
+  "call_101": [
+    "verify identity"
+  ],
+  "call_102": [
+    "update records",
+    "call back"
+  ],
+  "call_103": [
+    "escalate issue",
+    "update records"
+  ],
+  "call_104": [
+    "escalate issue"
+  ],
+  "call_105": [
+    "issue refund"
+  ],
+  "call_106": [
+    "verify identity",
+    "escalate issue"
+  ],
+  "call_107": [
+    "reset password"
+  ],
+  "call_108": [
+    "issue refund",
+    "reset password"
+  ],
+  "call_109": [
+    "escalate issue"
+  ],
+  "call_110": [
+    "call back",
+    "verify identity"
+  ],
+  "call_111": [
+    "issue refund"
+  ],
+  "call_112": [
+    "verify identity",
+    "schedule technician"
+  ],
+  "call_113": [
+    "call back",
+    "issue refund"
+  ],
+  "call_114": [
+    "verify identity"
+  ],
+  "call_115": [
+    "verify identity",
+    "schedule technician"
+  ],
+  "call_116": [
+    "call back",
+    "update records"
+  ],
+  "call_117": [
+    "reset password",
+    "escalate issue"
+  ],
+  "call_118": [
+    "reset password"
+  ],
+  "call_119": [
+    "verify identity",
+    "update records"
+  ]
+}

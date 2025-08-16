@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The call involved a discussion about technical adjustments related to bit rate and camera resolution. There was also mention of coordinating with Abhishek and Roger for further actions. The conversation included some technical jargon and seemed to focus on resolving certain issues.\",\n  \"topics\": [\n    \"Technical adjustments\",\n    \"Bit rate\",\n    \"Camera resolution\",\n    \"Coordination with team members\"\n  ],\n  \"action_items\": [\n    {\n      \"person\": \"Abhishek\",\n      \"task\": \"Coordinate with the team\",\n      \"deadline\": null\n    },\n    {\n      \"person\": \"Roger\",\n      \"task\": \"Follow up on bit rate adjustments\",\n      \"deadline\": null\n    }\n  ],\n  \"sentiment\": \"Neutral\"\n}\n```"
+}

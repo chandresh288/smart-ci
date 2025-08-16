@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The transcript provided is not in a recognizable language or format, making it impossible to extract meaningful information. It appears to be repetitive and lacks coherent content.\",\n  \"topics\": [],\n  \"action_items\": [],\n  \"sentiment\": \"neutral\"\n}\n```"
+}

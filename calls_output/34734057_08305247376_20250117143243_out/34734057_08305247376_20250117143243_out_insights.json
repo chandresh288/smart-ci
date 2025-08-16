@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The speaker is sending some documents and is coordinating with a customer. They mention providing details to a specific number.\",\n  \"topics\": [\n    \"Document sending\",\n    \"Customer coordination\",\n    \"Providing details\"\n  ],\n  \"action_items\": [\n    {\n      \"task\": \"Send documents\",\n      \"responsible\": \"Speaker\",\n      \"deadline\": null\n    },\n    {\n      \"task\": \"Provide details to a specific number\",\n      \"responsible\": \"Speaker\",\n      \"deadline\": null\n    }\n  ],\n  \"sentiment\": \"Neutral\"\n}\n```"
+}

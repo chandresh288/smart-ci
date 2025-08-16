@@ -13,8 +13,8 @@ import matplotlib.pyplot as plt
 # ─── Helpers ──────────────────────────────────────────────────────────────────
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--DATASET_PATH',      required=True, help='s3://bucket/prefix/dataset.json')
-    parser.add_argument('--REPORT_OUTPUT_DIR', required=True, help='s3://bucket/prefix/')
+    parser.add_argument('--DATASET_PATH',      required=True, help='s3://call-recordings-xpia/inbound/dataset.json')
+    parser.add_argument('--REPORT_OUTPUT_DIR', required=True, help='s3://call-recordings-xpia/inbound/')
     return parser.parse_args()
 
 def split_s3_path(s3_path):

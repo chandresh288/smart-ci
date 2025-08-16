@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The customer is experiencing an issue with receiving notifications from an IP camera and NVR system when motion is detected. The support representative suggests using WhatsApp for better communication due to audio issues on the current call.\",\n  \"topics\": [\n    \"IP camera\",\n    \"NVR system\",\n    \"Motion detection notifications\",\n    \"Communication issues\"\n  ],\n  \"action_items\": [\n    {\n      \"who\": \"Customer\",\n      \"what\": \"Call the support representative via WhatsApp\",\n      \"when\": \"As soon as possible\"\n    }\n  ],\n  \"sentiment\": \"Neutral\"\n}\n```"
+}

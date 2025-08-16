@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The call transcript provided contains only repeated greetings with no further conversation or context.\",\n  \"topics\": [],\n  \"action_items\": [],\n  \"sentiment\": \"Neutral\"\n}\n```"
+}

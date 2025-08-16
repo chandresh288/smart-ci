@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The call involves a discussion about technical issues related to a system and software. The participants are trying to resolve a problem with connecting a camera and sending photos via WhatsApp.\",\n  \"topics\": [\n    \"Technical issues\",\n    \"System and software\",\n    \"Camera connection\",\n    \"WhatsApp photo transfer\"\n  ],\n  \"action_items\": [],\n  \"sentiment\": \"Neutral\"\n}\n```"
+}

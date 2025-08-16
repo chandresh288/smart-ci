@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The call primarily focused on troubleshooting and configuring a camera system. The participants discussed various settings, including zoom and preset configurations, and addressed issues related to audio quality and volume control. They also mentioned sharing a video tutorial to assist with the setup process.\",\n  \"topics\": [\n    \"Camera configuration\",\n    \"Zoom and preset settings\",\n    \"Audio quality and volume control\",\n    \"Video tutorial for setup\"\n  ],\n  \"action_items\": [\n    {\n      \"task\": \"Share a video tutorial\",\n      \"responsible\": \"Unspecified\",\n      \"deadline\": \"Unspecified\"\n    }\n  ],\n  \"sentiment\": \"Neutral\"\n}\n```"
+}

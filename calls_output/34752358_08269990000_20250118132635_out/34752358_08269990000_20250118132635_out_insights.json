@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The call involves a technical support discussion where the customer is trying to resolve an issue related to login and password configuration. The support representative guides the customer on how to change the password and requests the lot number of the camera for further assistance.\",\n  \"topics\": [\n    \"Technical support\",\n    \"Login and password configuration\",\n    \"Camera lot number identification\"\n  ],\n  \"action_items\": [\n    {\n      \"who\": \"Customer\",\n      \"what\": \"Provide the lot number of the camera\",\n      \"when\": \"Not specified\"\n    }\n  ],\n  \"sentiment\": \"Neutral\"\n}\n```"
+}

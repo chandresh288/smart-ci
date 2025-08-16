@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The call transcript is largely unintelligible due to repeated phrases and non-standard text. It appears to involve some discussion about communication and possibly project management or planning.\",\n  \"topics\": [\n    \"Communication\",\n    \"Project management\"\n  ],\n  \"action_items\": [],\n  \"sentiment\": \"Neutral\"\n}\n```"
+}

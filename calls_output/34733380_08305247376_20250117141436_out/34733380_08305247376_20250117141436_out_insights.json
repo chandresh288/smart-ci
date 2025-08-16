@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The call involves a customer seeking technical support for an application named 'Easy C'. The customer is experiencing issues with logging in, as they encounter an error message related to 'insert, identic, spell'. The support representative is trying to assist by verifying registration details and suggesting a password reset.\",\n  \"topics\": [\n    \"Technical support\",\n    \"Application issues\",\n    \"Login problems\",\n    \"Error messages\",\n    \"Account registration\",\n    \"Password reset\"\n  ],\n  \"action_items\": [\n    {\n      \"who\": \"Support representative\",\n      \"what\": \"Verify registration details and assist with password reset\",\n      \"when\": \"During the call\"\n    }\n  ],\n  \"sentiment\": \"Neutral\"\n}\n```"
+}

@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The customer called technical support because they were unable to connect their camera to Wi-Fi. The support representative guided the customer through the process of connecting the camera by first ensuring the phone was connected to the network and then using the appropriate app to set up the camera connection.\",\n  \"topics\": [\n    \"Camera connection issue\",\n    \"Wi-Fi connectivity\",\n    \"Technical support guidance\",\n    \"App setup for camera\"\n  ],\n  \"action_items\": [\n    {\n      \"who\": \"Customer\",\n      \"what\": \"Connect phone to Wi-Fi and use the app to set up the camera connection\",\n      \"when\": \"During the call\"\n    }\n  ],\n  \"sentiment\": \"Neutral\"\n}\n```"
+}

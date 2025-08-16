@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The conversation revolves around the installation and connection of a dash camera in a vehicle. The speaker is seeking advice on how to connect the camera and mentions purchasing it from a store.\",\n  \"topics\": [\n    \"Dash camera installation\",\n    \"Vehicle accessories\",\n    \"Technical support\"\n  ],\n  \"action_items\": [\n    {\n      \"who\": \"Speaker\",\n      \"what\": \"Connect the dash camera in the vehicle\",\n      \"when\": \"Not specified\"\n    }\n  ],\n  \"sentiment\": \"Inquisitive\"\n}\n```"
+}

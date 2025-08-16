@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The call involved troubleshooting network issues, specifically related to configuring IP addresses and DNS servers. The caller was guided on how to input alternate DNS settings and was advised to enable certain settings to resolve connectivity issues. A contact number was provided for further assistance if the problem persists.\",\n  \"topics\": [\n    \"Network troubleshooting\",\n    \"IP address configuration\",\n    \"DNS server settings\",\n    \"Technical support\"\n  ],\n  \"action_items\": [\n    {\n      \"who\": \"Caller\",\n      \"what\": \"Input alternate DNS settings and enable specific settings\",\n      \"when\": \"Immediately, during the call\"\n    },\n    {\n      \"who\": \"Caller\",\n      \"what\": \"Call back if the issue is not resolved\",\n      \"when\": \"After attempting the provided solution\"\n    }\n  ],\n  \"sentiment\": \"Neutral\"\n}\n```"
+}

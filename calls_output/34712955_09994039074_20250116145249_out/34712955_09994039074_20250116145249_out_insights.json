@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The call involves a request for the customer to send a picture of a QR code related to a forgotten password issue. The technical support team plans to visit the customer's house after receiving the QR code.\",\n  \"topics\": [\n    \"Forgotten password\",\n    \"QR code\",\n    \"Technical support visit\"\n  ],\n  \"action_items\": [\n    {\n      \"who\": \"Customer\",\n      \"what\": \"Send the picture of the QR code\",\n      \"when\": \"As soon as possible\"\n    },\n    {\n      \"who\": \"Technical support\",\n      \"what\": \"Visit the customer's house\",\n      \"when\": \"After receiving the QR code\"\n    }\n  ],\n  \"sentiment\": \"Neutral\"\n}\n```"
+}

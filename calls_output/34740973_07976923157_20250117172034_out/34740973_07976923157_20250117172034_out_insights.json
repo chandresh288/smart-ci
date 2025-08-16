@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The call primarily discusses technical issues related to a camera and a system referred to as 'नविर'. There are repeated mentions of starting and checking the system, but the conversation is fragmented and lacks clear resolution.\",\n  \"topics\": [\n    \"Technical issues with a camera\",\n    \"System 'नविर' status and troubleshooting\",\n    \"Repeated attempts to resolve technical problems\"\n  ],\n  \"action_items\": [],\n  \"sentiment\": \"Frustrated\"\n}\n```"
+}

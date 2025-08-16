@@ -54,6 +54,7 @@ def process_call(key, audio_bucket, out_bucket, out_prefix, whisper_model, opena
         result = whisper_model.transcribe(local_audio)
         transcript = result["text"]
 
+
         # 3) Extract insights
         messages = [
             {"role": "system", "content": "You extract structured call insights as JSON."},
@@ -119,3 +120,4 @@ if __name__ == "__main__":
         ]
         for fut in as_completed(futures):
             fut.result()
+

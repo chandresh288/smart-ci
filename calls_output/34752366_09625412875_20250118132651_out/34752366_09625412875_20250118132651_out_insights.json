@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The conversation involves a discussion about sending a photo and checking some details. One person is asked to send a photo, and the other will verify and get back with information.\",\n  \"topics\": [\n    \"Photo sharing\",\n    \"Verification process\",\n    \"Communication coordination\"\n  ],\n  \"action_items\": [\n    {\n      \"who\": \"One participant\",\n      \"what\": \"Send a photo\",\n      \"by_when\": \"Not specified\"\n    },\n    {\n      \"who\": \"Other participant\",\n      \"what\": \"Check the details and respond\",\n      \"by_when\": \"Not specified\"\n    }\n  ],\n  \"sentiment\": \"Neutral\"\n}\n```"
+}

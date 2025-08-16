@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The call discusses technical issues related to a camera and its quality, which will be assessed at night. There is a mention of a product that needs to be prioritized, and a specific IBR number is discussed for some adjustments.\",\n  \"topics\": [\n    \"Camera quality assessment\",\n    \"Product prioritization\",\n    \"IBR number adjustments\"\n  ],\n  \"action_items\": [\n    {\n      \"task\": \"Assess the camera quality at night.\",\n      \"responsible\": \"Unspecified\",\n      \"deadline\": \"Unspecified\"\n    },\n    {\n      \"task\": \"Prioritize the product.\",\n      \"responsible\": \"Unspecified\",\n      \"deadline\": \"Unspecified\"\n    },\n    {\n      \"task\": \"Adjust the IBR number by replacing 22 with 23 if necessary.\",\n      \"responsible\": \"Unspecified\",\n      \"deadline\": \"Unspecified\"\n    }\n  ],\n  \"sentiment\": \"Neutral\"\n}\n```"
+}

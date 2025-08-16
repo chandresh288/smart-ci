@@ -1,0 +1,4 @@
+{
+  "error": "Could not parse JSON",
+  "raw": "```json\n{\n  \"summary\": \"The call involved troubleshooting connectivity issues with a remote desktop application and a Wi-Fi camera. The participants discussed resetting the camera, changing IP settings, and using tools like Ultra Viewer and IPC batch tool to resolve the issues. The call ended with the exchange of an ID and password for further remote assistance.\",\n  \"topics\": [\n    \"Remote desktop connectivity\",\n    \"Wi-Fi camera troubleshooting\",\n    \"IP settings and changes\",\n    \"Use of Ultra Viewer and IPC batch tool\"\n  ],\n  \"action_items\": [\n    {\n      \"who\": \"Caller\",\n      \"what\": \"Download Ultra Viewer and provide ID and password\",\n      \"when\": \"During the call\"\n    },\n    {\n      \"who\": \"Support\",\n      \"what\": \"Check camera and IP settings\",\n      \"when\": \"During the call\"\n    }\n  ],\n  \"sentiment\": \"Frustrated but cooperative\"\n}\n```"
+}
